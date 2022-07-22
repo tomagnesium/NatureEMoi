@@ -1,0 +1,1477 @@
+
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap);
+
+* {
+    font-family: 'Montserrat';
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0 auto;
+}
+
+header.header {
+    display: flex;
+    align-items: center;
+}
+
+section.centrer {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
+/*##################################################################################################################################################################
+#####################################    1600 a infini   ###########################################################################################################
+####################################################################################################################################################################
+*/
+@media (min-width:1600px) {
+    
+
+/* tete de page */
+
+
+  
+header.header img {
+    width: 150px;
+}
+
+section.top-page {
+    background: url('../images/bg.jpg');
+    background-size: cover;
+    height: auto;
+    padding: 75px;
+    max-width: 100%;
+}
+
+/* page de bienvenue (landing page) */
+
+.landing-page {
+    position: relative;
+    padding: 20px 50px;
+    flex-wrap: wrap;
+
+}
+
+.big-title {
+    color: white;
+    font-size:  70px;
+    font-family: 'Abril FatFace', 'cursive';
+    font-weight: 60;
+    width: 60%;
+}
+
+.section-title {
+    color: black;
+    font-size:  70px;
+    font-family: 'Abril FatFace', 'cursive';
+    font-weight: 60;
+    width: 60%;
+}
+
+.section-title-plan {
+    color: black;
+    font-size:  70px;
+    font-family: 'Abril FatFace', 'cursive';
+    font-weight: 60;
+    width: 60%;
+    margin-left: 5%;
+}
+
+.scroll-down {
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    bottom: 0;
+}
+
+/* menu de navigation */
+
+nav.nav {
+    display: outside;
+    justify-content: space-between;
+    list-style: none;
+    width: 600px;
+    margin-left: 30px;
+}
+
+nav.nav li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    font-size:  30px;
+}
+
+
+/* liste hebergement */
+
+.liste-mariage {
+    font-size: 30px;
+    font-family: 'Abril FatFace';
+    font-weight: 100;
+    position: relative;
+    margin-left: 80px;
+    margin-right: 80px;
+    background-color: whitez;
+}
+
+
+
+.hebergement {
+    min-height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hebergement-box {
+    position: static;
+    background-size: cover;
+    background-position: center;
+    margin: 20px;
+}
+
+#mon_id{
+    overflow-x:hidden;
+}
+
+
+.no-grid {
+    min-width: 350px;
+    height: 500px;
+    flex: 1;
+}
+
+.hebergement1 {
+    background-image: url(../images/en_travaux.jpg);
+}
+
+.hebergement2 {
+    background-image: url(../images/en_travaux.jpg);
+}
+
+.hebergement3 {
+    background-image: url(../images/en_travaux.jpg);
+}
+
+.hebergement4 {
+    background-image: url(../images/en_travaux.jpg);
+}
+
+.hebergement5 {
+    background-image: url(../images/liste_mariage.jpg);
+}
+
+.hebergement6 {
+    background-image: url(../images/photo_chateau.jpg);
+}
+
+.liste-details {
+    position: absolute;
+    width: 15%;
+    bottom: 10;
+    background-color: #FFFFFFDF;
+    padding: 25px 20px;
+}
+
+.hebergement-details {
+    position: absolute;
+    width: 80%;
+    bottom: 0;
+    background-color: #FFFFFFDF;
+    padding: 5px 20px;
+}
+
+.hebergement-name
+ {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30px;
+    box-sizing: content-box;
+    padding-left: 12px;
+}
+
+.plant-price {
+    color: #ADD981;
+    line-height: 3px;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+/* Plan */
+
+section.plan-page {
+    background: url('../images/fond-beige.jpg');
+    background-size: 100%;
+    height: 80vh;
+    padding: 25px;
+    display: flex;
+    margin-left: 80px;
+    margin-right: 80px;
+    max-width: 100%;
+}
+
+
+.information-geo{
+    display: 100%;
+    margin-top: 5%;
+}
+
+
+
+/* pied de page */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 10px;
+    font-weight: 600;
+}
+
+footer a.cgv {
+    text-decoration: none;
+    color: black;
+}
+}
+
+
+/*##################################################################################################################################################################
+#####################################    1329 a 1600   #############################################################################################################
+####################################################################################################################################################################
+*/
+
+@media (max-width:1600px) {
+
+    /* tete de page */
+
+
+  
+header.header img {
+    width: 150px;
+}
+
+section.top-page {
+    background: url('../images/bg.jpg');
+    background-size: cover;
+    height: auto;
+    padding: 75px;
+    max-width: 100%;
+}
+
+/* page de bienvenue (landing page) */
+
+.landing-page {
+    position: relative;
+    padding: 20px 50px;
+    flex-wrap: wrap;
+
+}
+
+.big-title {
+    color: white;
+    font-size:  70px;
+    font-family: 'Abril FatFace', 'cursive';
+    font-weight: 60;
+    width: 60%;
+}
+
+.section-title {
+    color: black;
+    font-size:  70px;
+    font-family: 'Abril FatFace', 'cursive';
+    font-weight: 60;
+    width: 60%;
+}
+
+.section-title-plan {
+    color: black;
+    font-size:  70px;
+    font-family: 'Abril FatFace', 'cursive';
+    font-weight: 60;
+    width: 60%;
+    margin-left: 5%;
+}
+
+.scroll-down {
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    bottom: 0;
+}
+
+/* menu de navigation */
+
+nav.nav {
+    display: outside;
+    justify-content: space-between;
+    list-style: none;
+    width: 600px;
+    margin-left: 30px;
+}
+
+nav.nav li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    font-size:  30px;
+}
+
+
+/* liste hebergement */
+
+.liste-mariage {
+    font-size: 30px;
+    font-family: 'Abril FatFace';
+    font-weight: 100;
+    position: relative;
+    margin-left: 80px;
+    margin-right: 80px;
+    background-color: white;
+}
+
+
+
+.hebergement {
+    min-height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hebergement-box {
+    position: static;
+    background-size: cover;
+    background-position: center;
+    margin: 20px;
+}
+
+#mon_id{
+    overflow-x:hidden;
+}
+
+
+.no-grid {
+    min-width: 500px;
+    height: 500px;
+    flex: 1;
+}
+
+.hebergement1 {
+    background-image: url(../images/en_travaux.jpg);
+}
+
+.hebergement2 {
+    background-image: url(../images/en_travaux.jpg);
+}
+
+.hebergement3 {
+    background-image: url(../images/en_travaux.jpg);
+}
+
+.hebergement4 {
+    background-image: url(../images/en_travaux.jpg);
+}
+
+.hebergement5 {
+    background-image: url(../images/liste_mariage.jpg);
+}
+
+.hebergement6 {
+    background-image: url(../images/photo_chateau.jpg);
+}
+
+.liste-details {
+    position: absolute;
+    width: 15%;
+    bottom: 10;
+    background-color: #FFFFFFDF;
+    padding: 25px 20px;
+}
+
+.hebergement-details {
+    position: absolute;
+    width: 80%;
+    bottom: 0;
+    background-color: #FFFFFFDF;
+    padding: 5px 20px;
+}
+
+.hebergement-name
+ {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30px;
+    box-sizing: content-box;
+    padding-left: 12px;
+}
+
+.plant-price {
+    color: #ADD981;
+    line-height: 3px;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+/* Plan */
+
+section.plan-page {
+    background: url('../images/fond-beige.jpg');
+    background-size: 100%;
+    height: 80vh;
+    padding: 25px;
+    display: flex;
+    margin-left: 80px;
+    margin-right: 80px;
+    max-width: 100%;
+}
+
+
+.information-geo{
+    display: 100%;
+    margin-top: 5%;
+}
+
+
+
+/* pied de page */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 10px;
+    font-weight: 600;
+}
+
+footer a.cgv {
+    text-decoration: none;
+    color: black;
+}
+
+
+}
+
+/*##################################################################################################################################################################
+#####################################    1024 a 1329   #############################################################################################################
+####################################################################################################################################################################
+*/
+
+@media (max-width:1329px) {
+    
+
+header.header img {
+    width: 150px;
+}
+
+section.top-page {
+    background: url('../images/bg.jpg');
+    background-size: cover;
+    height: auto;
+    padding: 50px;
+    max-width: 100%;
+    background-position: center;
+}
+
+/* page de bienvenue (landing page) */
+
+.landing-page {
+    position: relative;
+    padding: 20px 50px;
+    flex-wrap: wrap;
+
+}
+
+.big-title {
+    color: white;
+    font-size:  70px;
+    font-family: 'Abril FatFace', 'cursive';
+    font-weight: 60;
+    width: 60%;
+}
+
+.section-title {
+    color: black;
+    font-size:  70px;
+    font-family: 'Abril FatFace', 'cursive';
+    font-weight: 60;
+    width: 60%;
+}
+
+.section-title-plan {
+    color: black;
+    font-size:  70px;
+    font-family: 'Abril FatFace', 'cursive';
+    font-weight: 60;
+    width: 60%;
+    margin-left: 5%;
+}
+
+.scroll-down {
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    bottom: 0;
+}
+
+/* menu de navigation */
+
+nav.nav {
+    display: outside;
+    justify-content: space-between;
+    list-style: none;
+    width: 600px;
+    margin-left: 30px;
+}
+
+nav.nav li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    font-size:  30px;
+}
+
+
+/* liste hebergement */
+
+.liste-mariage {
+    font-size: 30px;
+    font-family: 'Abril FatFace';
+    font-weight: 100;
+    position: relative;
+    margin-left: 80px;
+    margin-right: 80px;
+    background-color: white;
+}
+
+
+
+.hebergement {
+    min-height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hebergement-box {
+    position: static;
+    background-size: cover;
+    background-position: center;
+    margin: 20px;
+}
+
+#mon_id{
+    overflow-x:hidden;
+}
+
+
+.no-grid {
+    min-width: 370px;
+    height: 500px;
+    flex: 1;
+}
+
+.hebergement1 {
+    background-image: url(../images/en_travaux.jpg);
+}
+
+.hebergement2 {
+    background-image: url(../images/en_travaux.jpg);
+}
+
+.hebergement3 {
+    background-image: url(../images/en_travaux.jpg);
+}
+
+.hebergement4 {
+    background-image: url(../images/en_travaux.jpg);
+}
+
+.hebergement5 {
+    background-image: url(../images/liste_mariage.jpg);
+}
+
+.hebergement6 {
+    background-image: url(../images/photo_chateau.jpg);
+}
+
+.liste-details {
+    position: absolute;
+    width: 15%;
+    bottom: 10;
+    background-color: #FFFFFFDF;
+    padding: 25px 20px;
+}
+
+.hebergement-details {
+    position: absolute;
+    width: 80%;
+    bottom: 0;
+    background-color: #FFFFFFDF;
+    padding: 5px 20px;
+}
+
+.hebergement-name
+ {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30px;
+    box-sizing: content-box;
+    padding-left: 12px;
+}
+
+.plant-price {
+    color: #ADD981;
+    line-height: 3px;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+/* Plan */
+
+section.plan-page {
+    background: url('../images/fond-beige.jpg');
+    background-size: 100%;
+    height: 80vh;
+    padding: 25px;
+    display: flex;
+    margin-left: 80px;
+    margin-right: 80px;
+    max-width: 100%;
+}
+
+
+.information-geo{
+    display: 100%;
+    margin-top: 5%;
+}
+
+
+
+/* pied de page */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 10px;
+    font-weight: 600;
+}
+
+footer a.cgv {
+    text-decoration: none;
+    color: black;
+}
+}
+
+
+/*##################################################################################################################################################################
+###########################################720 a 1024###############################################################################################################
+####################################################################################################################################################################
+*/
+
+
+@media (max-width:1024px) {
+    
+
+    header.header img {
+        width: 150px;
+    }
+    
+    section.top-page {
+        background: url('../images/bg.jpg');
+        background-size: cover;
+        height: auto;
+        padding: 50px;
+        max-width: 100%;
+        background-position:center;
+    }
+    
+    /* page de bienvenue (landing page) */
+    
+    .landing-page {
+        position: relative;
+        padding: 20px 50px;
+        flex-wrap: wrap;
+    
+    }
+    
+    .big-title {
+        color: white;
+        font-size:  50px;
+        font-family: 'Abril FatFace', 'cursive';
+        font-weight: 60;
+        width: 60%;
+    }
+    
+    .section-title {
+        color: black;
+        font-size:  50px;
+        font-family: 'Abril FatFace', 'cursive';
+        font-weight: 60;
+        width: 60%;
+    }
+    
+    .section-title-plan {
+        color: black;
+        font-size:  70px;
+        font-family: 'Abril FatFace', 'cursive';
+        font-weight: 60;
+        width: 60%;
+        margin-left: 5%;
+    }
+    
+    .scroll-down {
+        color: white;
+        text-decoration: none;
+        position: absolute;
+        bottom: 0;
+    }
+    
+    /* menu de navigation */
+    
+    nav.nav {
+        display: outside;
+        justify-content: space-between;
+        list-style: none;
+        width: 600px;
+        margin-left: 30px;
+    }
+    
+    nav.nav li a {
+        color: white;
+        text-decoration: none;
+        font-weight: 300;
+        font-size:  30px;
+    }
+    
+    
+    /* liste hebergement */
+    
+
+    
+    
+    .hebergement {
+        min-height: 500px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .hebergement-box {
+        position: static;
+        background-size: cover;
+        background-position: center;
+        margin: 20px;
+    }
+    
+    #mon_id{
+        overflow-x:hidden;
+    }
+    
+    
+    .no-grid {
+        min-width: 370px;
+        height: 500px;
+        flex: 1;
+    }
+    
+    .hebergement1 {
+        background-image: url(../images/en_travaux.jpg);
+    }
+    
+    .hebergement2 {
+        background-image: url(../images/en_travaux.jpg);
+    }
+    
+    .hebergement3 {
+        background-image: url(../images/en_travaux.jpg);
+    }
+    
+    .hebergement4 {
+        background-image: url(../images/en_travaux.jpg);
+    }
+    
+    .hebergement5 {
+        background-image: url(../images/liste_mariage.jpg);
+    }
+    
+    .hebergement6 {
+        background-image: url(../images/photo_chateau.jpg);
+    }
+    
+    .liste-details {
+        position: absolute;
+        width: 15%;
+        bottom: 10;
+        background-color: #FFFFFFDF;
+        padding: 25px 20px;
+    }
+    
+    .hebergement-details {
+        position: absolute;
+        width: 80%;
+        bottom: 0;
+        background-color: #FFFFFFDF;
+        padding: 5px 20px;
+    }
+    
+    .hebergement-name
+     {
+        font-size: 13px;
+        font-weight: 600;
+        line-height: 30px;
+        box-sizing: content-box;
+        padding-left: 12px;
+    }
+    
+    .plant-price {
+        color: #ADD981;
+        line-height: 3px;
+        font-size: 14px;
+        font-weight: 800;
+    }
+    
+    /* Plan */
+    
+    section.plan-page {
+        background: url('../images/fond-beige.jpg');
+        background-size: 100%;
+        height: 80vh;
+        padding: 25px;
+        display: flex;
+        margin-left: 80px;
+        margin-right: 80px;
+        max-width: 100%;
+    }
+    
+    
+    .information-geo{
+        display: 100%;
+        margin-top: 5%;
+    }
+    
+    
+    
+    /* pied de page */
+    
+    footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0px 10px;
+        font-weight: 600;
+    }
+    
+    footer a.cgv {
+        text-decoration: none;
+        color: black;
+    }
+    }
+
+/*##################################################################################################################################################################
+###########################################580 a 720###############################################################################################################
+####################################################################################################################################################################
+*/
+
+    @media (max-width:720px) {
+    
+
+        header.header img {
+            width: 150px;
+        }
+        
+        section.top-page {
+            background: url('../images/bg.jpg');
+            background-size: cover;
+            height: auto;
+            padding: 50px;
+            max-width: 100%;
+            background-position: center;
+        }
+        
+        /* page de bienvenue (landing page) */
+        
+        .landing-page {
+            position: relative;
+            padding: 20px 50px;
+            flex-wrap: wrap;
+        
+        }
+        
+        .big-title {
+            color: white;
+            font-size:  50px;
+            font-family: 'Abril FatFace', 'cursive';
+            font-weight: 60;
+            width: 60%;
+        }
+        
+        .section-title {
+            color: black;
+            font-size:  50px;
+            font-family: 'Abril FatFace', 'cursive';
+            font-weight: 60;
+            width: 60%;
+        }
+        
+        .section-title-plan {
+            color: black;
+            font-size:  70px;
+            font-family: 'Abril FatFace', 'cursive';
+            font-weight: 60;
+            width: 60%;
+            margin-left: 5%;
+        }
+        
+        .scroll-down {
+            color: white;
+            text-decoration: none;
+            position: absolute;
+            bottom: 0;
+        }
+        
+        /* menu de navigation */
+        
+        nav.nav {
+            display: outside;
+            justify-content: space-between;
+            list-style: none;
+            width: 600px;
+            margin-left: 30px;
+        }
+        
+        nav.nav li a {
+            color: white;
+            text-decoration: none;
+            font-weight: 300;
+            font-size:  30px;
+        }
+        
+        
+        /* liste hebergement */
+        
+    
+        
+        
+        .hebergement {
+            min-height: 500px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        .hebergement-box {
+            position: static;
+            background-size: cover;
+            background-position: center;
+            margin: 20px;
+        }
+        
+        #mon_id{
+            overflow-x:hidden;
+        }
+        
+        
+        .no-grid {
+            min-width: 370px;
+            height: 500px;
+            flex: 1;
+        }
+        
+        .hebergement1 {
+            background-image: url(../images/en_travaux.jpg);
+        }
+        
+        .hebergement2 {
+            background-image: url(../images/en_travaux.jpg);
+        }
+        
+        .hebergement3 {
+            background-image: url(../images/en_travaux.jpg);
+        }
+        
+        .hebergement4 {
+            background-image: url(../images/en_travaux.jpg);
+        }
+        
+        .hebergement5 {
+            background-image: url(../images/liste_mariage.jpg);
+        }
+        
+        .hebergement6 {
+            background-image: url(../images/photo_chateau.jpg);
+        }
+        
+        .liste-details {
+            position: absolute;
+            width: 25%;
+            bottom: 10;
+            background-color: #FFFFFFDF;
+            padding: 25px 20px;
+        }
+        
+        .hebergement-details {
+            position: absolute;
+            width: 80%;
+            bottom: 0;
+            background-color: #FFFFFFDF;
+            padding: 5px 20px;
+        }
+        
+        .hebergement-name
+         {
+            font-size: 13px;
+            font-weight: 600;
+            line-height: 30px;
+            box-sizing: content-box;
+            padding-left: 12px;
+        }
+        
+        .plant-price {
+            color: #ADD981;
+            line-height: 3px;
+            font-size: 14px;
+            font-weight: 800;
+        }
+        
+        /* Plan */
+        
+        section.plan-page {
+            background: url('../images/fond-beige.jpg');
+            background-size: 100%;
+            height: 60vh;
+            padding: 25px;
+            display: flex;
+            margin-left: 80px;
+            margin-right: 80px;
+            max-width: 100%;
+        }
+        
+        
+        .information-geo{
+            display: 100%;
+            margin-top: 5%;
+        }
+        
+        
+        
+        /* pied de page */
+        
+        footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0px 10px;
+            font-weight: 600;
+        }
+        
+        footer a.cgv {
+            text-decoration: none;
+            color: black;
+        }
+        }
+
+/*##################################################################################################################################################################
+###########################################380 a 580################################################################################################################
+####################################################################################################################################################################
+*/
+
+@media (max-width:580px) {
+    
+
+    header.header img {
+        width: 80px;
+    }
+    
+    section.top-page {
+        background: url('../images/bg.jpg');
+        background-size: cover;
+        height: auto;
+        padding: 20px;
+        max-width: 100%;
+        background-position: center;
+    }
+    
+    /* page de bienvenue (landing page) */
+    
+    .landing-page {
+        position: relative;
+        padding: 20px 20px;
+        flex-wrap: wrap;
+    
+    }
+    
+    .big-title {
+        color: white;
+        font-size:  40px;
+        font-family: 'Abril FatFace', 'cursive';
+        font-weight: 40;
+        width: 100%;
+    }
+    
+    .section-title {
+        color: black;
+        font-size:  30px;
+        font-family: 'Abril FatFace', 'cursive';
+        font-weight: 60;
+        width: 60%;
+    }
+    
+    .section-title-plan {
+        color: black;
+        font-size:  30px;
+        font-family: 'Abril FatFace', 'cursive';
+        font-weight: 60;
+        width: 60%;
+        margin-left: 5%;
+    }
+    
+    .scroll-down {
+        color: white;
+        text-decoration: none;
+        position: absolute;
+        bottom: 0;
+    }
+    
+    /* menu de navigation */
+    
+    nav.nav {
+        display: outside;
+        justify-content: space-between;
+        list-style: none;
+        width: 600px;
+    }
+    
+    nav.nav li a {
+        color: white;
+        text-decoration: none;
+        font-weight: 500;
+        font-size:  18px;
+    }
+    
+    
+    /* liste hebergement */
+    
+
+    
+    
+    .hebergement-box {
+        position: static;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    #mon_id{
+        overflow-x:hidden;
+    }
+    
+    
+    .no-grid {
+        min-width: 200px;
+        height: 300px;
+    }
+    
+    .hebergement1 {
+        background-image: url(../images/en_travaux.jpg);
+    }
+    
+    .hebergement2 {
+        background-image: url(../images/en_travaux.jpg);
+    }
+    
+    .hebergement3 {
+        background-image: url(../images/en_travaux.jpg);
+    }
+    
+    .hebergement4 {
+        background-image: url(../images/en_travaux.jpg);
+    }
+    
+    .hebergement5 {
+        background-image: url(../images/liste_mariage.jpg);
+    }
+    
+    .hebergement6 {
+        background-image: url(../images/photo_chateau.jpg);
+    }
+    
+    .liste-details {
+        position: absolute;
+        width: 25%;
+        bottom: 10;
+        background-color: #FFFFFFDF;
+        padding: 25px 20px;
+    }
+    
+    .hebergement-details {
+        position: absolute;
+        width: 80%;
+        bottom: 0;
+        background-color: #FFFFFFDF;
+        padding: 5px 20px;
+    }
+    
+    .hebergement-name
+     {
+        font-size: 13px;
+        font-weight: 600;
+        line-height: 30px;
+        box-sizing: content-box;
+        padding-left: 12px;
+    }
+    
+    .plant-price {
+        color: #ADD981;
+        line-height: 3px;
+        font-size: 14px;
+        font-weight: 800;
+    }
+    
+    .liste-mariage {
+        font-size: 30px;
+        font-family: 'Abril FatFace';
+        font-weight: 100;
+        position: relative;
+        margin-left: 10px;
+        margin-right: 10px;
+        background-color: white;
+    }
+    
+    /* Plan */
+    
+    section.plan-page {
+        background: url('../images/fond-beige.jpg');
+        background-size: 100%;
+        height: 40vh;
+        padding: 10px;
+        display: flex;
+        margin-left: 20px;
+        margin-right: 20px;
+        max-width: 100%;
+    }
+    
+    
+    .information-geo{
+        display: 100%;
+        margin-top: 5%;
+    }
+    
+    
+    
+    /* pied de page */
+    
+    footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0px 10px;
+        font-weight: 600;
+    }
+    
+    footer a.cgv {
+        text-decoration: none;
+        color: black;
+    }
+    }
+
+/*##################################################################################################################################################################
+###########################################-infini a 380############################################################################################################
+####################################################################################################################################################################
+*/
+
+@media (max-width:380px) {
+    
+
+    header.header img {
+        width: 80px;
+    }
+    
+    section.top-page {
+        background: url('../images/bg.jpg');
+        background-size: cover;
+        height: auto;
+        padding: 20px;
+        max-width: 100%;
+        background-position: center;
+    }
+    
+    /* page de bienvenue (landing page) */
+    
+    .landing-page {
+        position: relative;
+        padding: 20px 20px;
+        flex-wrap: wrap;
+    
+    }
+    
+    .big-title {
+        color: white;
+        font-size:  30px;
+        font-family: 'Abril FatFace', 'cursive';
+        font-weight: 40;
+        width: 100%;
+    }
+    
+    .section-title {
+        color: black;
+        font-size:  30px;
+        font-family: 'Abril FatFace', 'cursive';
+        font-weight: 60;
+        width: 60%;
+    }
+    
+    .section-title-plan {
+        color: black;
+        font-size:  30px;
+        font-family: 'Abril FatFace', 'cursive';
+        font-weight: 60;
+        width: 60%;
+        margin-left: 5%;
+    }
+    
+    .scroll-down {
+        color: white;
+        text-decoration: none;
+        position: absolute;
+        bottom: 0;
+    }
+    
+    /* menu de navigation */
+    
+    nav.nav {
+        display: outside;
+        justify-content: space-between;
+        list-style: none;
+        width: 600px;
+    }
+    
+    nav.nav li a {
+        color: white;
+        text-decoration: none;
+        font-weight: 500;
+        font-size:  13px;
+    }
+    
+    
+    /* liste hebergement */
+    
+
+    
+    
+    .hebergement-box {
+        position: static;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    #mon_id{
+        overflow-x:hidden;
+    }
+    
+    
+    .no-grid {
+        min-width: 200px;
+        height: 300px;
+    }
+    
+    .hebergement1 {
+        background-image: url(../images/en_travaux.jpg);
+    }
+    
+    .hebergement2 {
+        background-image: url(../images/en_travaux.jpg);
+    }
+    
+    .hebergement3 {
+        background-image: url(../images/en_travaux.jpg);
+    }
+    
+    .hebergement4 {
+        background-image: url(../images/en_travaux.jpg);
+    }
+    
+    .hebergement5 {
+        background-image: url(../images/liste_mariage.jpg);
+    }
+    
+    .hebergement6 {
+        background-image: url(../images/photo_chateau.jpg);
+    }
+    
+    .liste-details {
+        position: absolute;
+        width: 25%;
+        bottom: 10;
+        background-color: #FFFFFFDF;
+        padding: 25px 20px;
+    }
+    
+    .hebergement-details {
+        position: absolute;
+        width: 80%;
+        bottom: 0;
+        background-color: #FFFFFFDF;
+        padding: 5px 20px;
+    }
+    
+    .hebergement-name
+     {
+        font-size: 8px;
+        font-weight: 600;
+        line-height: 30px;
+        box-sizing: content-box;
+        padding-left: 12px;
+    }
+    
+    .plant-price {
+        color: #ADD981;
+        line-height: 3px;
+        font-size: 14px;
+        font-weight: 800;
+    }
+    
+    .liste-mariage {
+        font-size: 30px;
+        font-family: 'Abril FatFace';
+        font-weight: 100;
+        position: relative;
+        margin-left: 10px;
+        margin-right: 10px;
+        background-color: white;
+    }
+    
+    /* Plan */
+    
+    section.plan-page {
+        background: url('../images/fond-beige.jpg');
+        background-size: 100%;
+        height: 40vh;
+        padding: 10px;
+        display: flex;
+        margin-left: 20px;
+        margin-right: 20px;
+        max-width: 100%;
+    }
+    
+    
+    .information-geo{
+        display: 100%;
+        margin-top: 5%;
+    }
+    
+    
+    
+    /* pied de page */
+    
+    footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0px 10px;
+        font-weight: 600;
+    }
+    
+    footer a.cgv {
+        text-decoration: none;
+        color: black;
+    }
+    }
